@@ -7,7 +7,7 @@ import Tile from "./Tile.vue";
     <div class="flex flex-wrap justify-center gap-5 container m-auto">
       <Tile
         logo="/jellyfinLogo.png"
-        color="bg-[#4E83D1]/30"
+        color="bg-[#4E83D1]/40"
         href="http://100.98.112.15:8096/web/#/home.html"
       />
 
@@ -19,7 +19,7 @@ import Tile from "./Tile.vue";
 
       <Tile
         logo="/primeVideoLogo.webp"
-        color="bg-[#2897D3]/30"
+        color="bg-[#2897D3]/20"
         href="https://www.primevideo.com"
       />
 
@@ -30,14 +30,20 @@ import Tile from "./Tile.vue";
       />
 
       <Tile
+        logo="/appleTvPlusLogo.svg"
+        color="bg-[#000000]/30"
+        href="https://tv.apple.com/it"
+      />
+
+      <Tile
         logo="/nowTvLogo.png"
-        color="bg-[#007880]/30"
+        color="bg-[#007B83]/20"
         href="https://www.nowtv.it"
       />
 
       <Tile
         logo="/raiPlayLogo.png"
-        color="bg-[#009FF9]/30"
+        color="bg-[#009FF9]/20"
         href="https://www.raiplay.it"
       />
 
