@@ -5,7 +5,7 @@ import TileContainer from "./components/TileContainer.vue";
 <template>
   <div class="flex justify-center h-130">
     <div class="flex items-center">
-      <img src="/raspLogo.png" class="w-56 h-56" />
+      <img src="../public/raspLogo.png" class="w-56 h-56" />
       <h1 class="text-9xl">PiTV</h1>
     </div>
   </div>
