@@ -1,15 +1,17 @@
 <script setup>
 import TileContainer from "./components/TileContainer.vue";
+import Hero from "./components/Hero.vue";
 </script>
 
 <template>
-  <div class="flex justify-center h-130">
-    <div class="flex items-center">
-      <img src="/raspLogo.png" class="w-56 h-56" />
-      <h1 class="text-9xl">PiTV</h1>
+  <div class="flex flex-col gap-10 justify-center items-center h-dvh">
+    <div class="flex justify-center">
+      <Hero />
+    </div>
+    <div class="flex justify-center items-center">
+      <TileContainer />
     </div>
   </div>
-  <TileContainer />
 </template>
 
 <style scoped></style>

@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import "tailwindcss";
 
 body {
     height: 100vh;
+    background: url("https://picsum.photos/4096/2160?grayscale");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.archivo-black-bold {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: bold;
 }

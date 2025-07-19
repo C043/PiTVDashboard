@@ -3,8 +3,8 @@ import Tile from "./Tile.vue";
 </script>
 
 <template>
-  <div class="bg-red-100 h-dvh">
-    <div class="flex flex-wrap justify-center gap-5 container m-auto pt-10">
+  <div>
+    <div class="flex flex-wrap justify-center gap-5 container m-auto">
       <Tile
         logo="/jellyfinLogo.png"
         color="bg-[#4E83D1]/30"
@@ -39,6 +39,12 @@ import Tile from "./Tile.vue";
         logo="/raiPlayLogo.png"
         color="bg-[#009FF9]/30"
         href="https://www.raiplay.it"
+      />
+
+      <Tile
+        logo="/audioBookLogo.svg"
+        color="bg-[#CD9D49]/30"
+        href="http://100.98.112.15:13378"
       />
     </div>
   </div>
