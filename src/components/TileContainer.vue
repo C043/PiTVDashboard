@@ -4,7 +4,7 @@ import Tile from "./Tile.vue";
 
 <template>
   <div>
-    <div class="flex flex-wrap justify-center gap-5 container m-auto">
+    <div class="flex flex-wrap justify-center gap-2 container mb-10">
       <Tile
         logo="/jellyfinLogo.png"
         color="bg-[#4E83D1]/40"
@@ -59,7 +59,7 @@ import Tile from "./Tile.vue";
       />
       <Tile
         logo="/twitchLogo.png"
-        color="bg-[#65459B]/30"
+        color="bg-[#65459B]/20"
         href="https://www.twitch.tv"
       />
     </div>

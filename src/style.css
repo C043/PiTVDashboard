@@ -6,7 +6,6 @@ body {
     background: url("https://picsum.photos/4096/2160?grayscale");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .archivo-black-bold {
