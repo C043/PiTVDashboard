@@ -52,6 +52,16 @@ import Tile from "./Tile.vue";
         color="bg-[#CD9D49]/30"
         href="http://100.98.112.15:13378"
       />
+      <Tile
+        logo="/youtubeLogo.png"
+        color="bg-[#E32C27]/30"
+        href="https://www.youtube.com"
+      />
+      <Tile
+        logo="/twitchLogo.png"
+        color="bg-[#65459B]/30"
+        href="https://www.twitch.tv"
+      />
     </div>
   </div>
 </template>
