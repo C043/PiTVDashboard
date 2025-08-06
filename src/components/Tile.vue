@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps(["logo", "color", "href"]);
+const { logo, color, href } = defineProps(["logo", "color", "href"])
 </script>
 
 <template>

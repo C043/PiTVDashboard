@@ -1,5 +1,10 @@
 <script setup>
-import Tile from "./Tile.vue";
+import Tile from "./Tile.vue"
+
+const env = import.meta.env
+
+const jellyfinUrl = env.VITE_JELLYFIN_URL
+const audiobookShelfUrl = env.VITE_AUDIOBOOKSHELF_URL
 </script>
 
 <template>
@@ -8,7 +13,7 @@ import Tile from "./Tile.vue";
       <Tile
         logo="/jellyfinLogo.png"
         color="bg-[#4E83D1]/40"
-        href="http://100.98.112.15:8096/web/#/home.html"
+        :href="jellyfinUrl"
       />
 
       <Tile
@@ -50,7 +55,7 @@ import Tile from "./Tile.vue";
       <Tile
         logo="/audioBookLogo.svg"
         color="bg-[#CD9D49]/30"
-        href="http://100.98.112.15:13378"
+        :href="audiobookShelfUrl"
       />
       <Tile
         logo="/youtubeLogo.png"
